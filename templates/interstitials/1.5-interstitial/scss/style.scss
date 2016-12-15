@@ -1,0 +1,150 @@
+/*
+Name: FollowAnalytics
+Description: FollowAnalytics in-App Templates
+Version: 1.0.0
+*/
+
+/* ==========================================================================
+Template Variables
+========================================================================== */
+
+// Typography
+$font-family-body: 'Open Sans', sans-serif;
+$font-family-title: 'Playfair Display', serif;
+$font-weight-semibold: 600;
+$font-size-body: 16px;
+$font-size-title: 28px;
+$line-height-body: 1.5;
+
+// Basic Color Palette
+$black: #212121;
+$lightgrey: #F0F0F0;
+$white: #ffffff;
+// Additional Colors
+$color_01: #d19d49;
+$iOSblue: #007AFF;
+
+// Borders
+$borders: 1px solid rgba(255, 255, 255, 0.7);
+
+
+/* ==========================================================================
+Template Defaults
+========================================================================== */
+
+@import 'reset.scss';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-family-body;
+  -webkit-text-stroke-width: .05px;
+  -webkit-text-stroke-color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  color: $white;
+  font-family: $font-family-title;
+  font-size: $font-size-title;
+  font-weight: $font-weight-semibold;
+}
+
+p {
+  color: $white;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+}
+
+a {
+  display: block;
+  font-size: $font-size-body;
+  text-decoration: none;
+}
+
+
+/* ==========================================================================
+Template Layout
+========================================================================== */
+
+// Layout
+.flex-container {
+  display: flex;
+  flex-flow: column-reverse wrap;
+  height: 100%;
+}
+
+.template_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* ==========================================================================
+Template Stylist
+========================================================================== */
+
+// Styling
+.flex-container {
+  background-color: $white;
+  background-size: cover;
+  background-image: url("../images/Paris-01.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+
+  &:before {
+      background: linear-gradient(to bottom,rgba(0,0,0,0) 5%, rgba(0,0,0,0.65) 90%);
+      bottom: 0;
+      content: '';
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+   }
+
+
+  .template_buttons {
+    margin: 0px 24px;
+    padding-bottom: 24px;
+
+    .button {
+      border-radius: 4px;
+      height: 56px;
+      width: 100%;
+
+      a {
+        line-height: 56px;
+        text-align: center;
+      }
+    }
+  } //End .template_buttons
+
+  .buttonCenter {
+        background-color: none;
+        border: $borders;
+
+        a {
+          color: $white;
+          font-weight: $font-weight-semibold;
+        }
+    }
+}//End .flex-container
+
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1025px) {
+/* Styles */
+}
