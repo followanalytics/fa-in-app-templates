@@ -5,7 +5,6 @@ This repository contains various formats of in-app templates created for the pur
 You can preview all the in-app templates via Sketch Cloud by clicking on the link bellow:
 
 [Sketch Cloud file](https://sketch.cloud/s/r00E)
-
 Password: followanalytics2016
 
 ### Editing templates
