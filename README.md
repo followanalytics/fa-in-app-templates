@@ -7,7 +7,7 @@ You can preview all the in-app templates via Sketch Cloud by clicking on the lin
 [Sketch Cloud file](https://sketch.cloud/s/r00E) 📐<br/>
 (password: followanalytics2016)
 
-### Editing templates
+#### Editing templates
 Editing a template is an easy-to-do task. You only need to open the file ``` index.html ``` in a text editor and change a few HTML lines. No sweat!
 
 #### Creating a ZIP file
