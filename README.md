@@ -22,7 +22,7 @@ images(folder)
 
 ![Compressing ZIP file](https://d17oy1vhnax1f7.cloudfront.net/items/2W2Y0Z073A2Y2E1w2m2Y/Screen%20Recording%202016-11-30%20at%2003.16%20pm.gif?v=aec137b2)
 
-Note:
+**Note:**<br/>
 Please do not create a ZIP file using the whole folder otherwise the system would be able to load the in-app template correctly.
 
 #### Important!
