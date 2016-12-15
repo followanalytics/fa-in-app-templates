@@ -1,0 +1,45 @@
+{
+  "template_options": {
+    "name": "popup In-app Template",
+    "category": "travel",
+    "tags": "travel, promo",
+    "title": "Paris Charmant",
+    "page": {
+      "background_color": "#FBD2D2",
+      "text_direction": "ltr"
+    }
+  },
+  "sdk_options": {
+    "type":"popup",
+    "window": {
+      "size": {jk
+        "horizontal": "1368",
+        "vertical": "1856"
+      },
+      "position": "center",
+      "timeout": 10
+      },
+    "animation": {
+        "entry": {
+          "delay": 0.3,
+          "effect": "fadeIn"
+        },
+        "exit": {
+          "delay": 0.3,
+          "effect": "fadeOut"
+        }
+      },
+      "close_button": {
+          "src": {
+              "normal": "https://s3-eu-west-1.amazonaws.com/fa-inapp-templates/MPCloseBtn.png",
+              "retina": "https://s3-eu-west-1.amazonaws.com/fa-inapp-templates/MPCloseBtn%402x.png",
+              "hdp
+              i": "https://s3-eu-west-1.amazonaws.com/fa-inapp-templates/MPCloseBtn%402x.png"
+          },
+          "position": "topRight",
+          "visible": true,
+          "appear_timeout":2,
+          "floating": "ok"
+      }
+}
+}

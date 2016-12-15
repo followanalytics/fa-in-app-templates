@@ -1,0 +1,39 @@
+{
+  "template_options": {
+    "name": "pop-up in-app template",
+    "category": "travel",
+    "tags": "travel, promo",
+    "title": "Discover Paris",
+    "page": {
+      "background_color": "#ffffff",
+      "text_direction": "ltr"
+    }
+  },
+  "sdk_options": {
+    "type":"fullscreen",
+    "window": {
+        "timeout": 0
+      },
+    "animation": {
+        "entry": {
+          "delay": 0.3,
+          "effect": "fadeIn"
+        },
+        "exit": {
+          "delay": 1.6,
+          "effect": "fadeOut"
+        }
+      },
+      "close_button": {
+          "src": {
+              "normal": "https://s3-eu-west-1.amazonaws.com/fa-inapp-templates/MPCloseBtn.png",
+              "retina": "https://s3-eu-west-1.amazonaws.com/fa-inapp-templates/MPCloseBtn%402x.png",
+              "hdpi": "https://s3-eu-west-1.amazonaws.com/fa-inapp-templates/MPCloseBtn%402x.png"
+          },
+          "position": "topRight",
+          "visible": true,
+          "appear_timeout":2,
+          "floating": "ok"
+      }
+}
+}

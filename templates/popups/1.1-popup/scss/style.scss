@@ -1,0 +1,164 @@
+/*
+Name: FollowAnalytics
+Description: FollowAnalytics in-App Templates
+Version: 1.0.0
+*/
+
+/* ==========================================================================
+Template Variables
+========================================================================== */
+
+// Typography
+$font-family-body: 'Open Sans', sans-serif;
+$font-family-title: 'Playfair Display', serif;
+$font-weight-semibold: 600;
+$font-size-body: 15px;
+$font-size-title: 22px;
+$line-height-body: 1.5;
+
+// Basic Color Palette
+$black: #212121;
+$lightgrey: #F0F0F0;
+$white: #ffffff;
+// Additional Colors
+$color_01: #284360;
+$iOSblue: #007AFF;
+
+// Borders
+$borders: 1px solid $lightgrey;
+
+
+/* ==========================================================================
+Template Defaults
+========================================================================== */
+
+@import "reset.scss";
+
+
+body {
+  font-family: $font-family-body;
+  -webkit-text-stroke-width: .05px;
+  -webkit-text-stroke-color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  color: $color_01;
+  font-family: $font-family-title;
+  font-size: $font-size-title;
+  font-weight: $font-weight-semibold;
+}
+
+p {
+  color: $black;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+}
+
+a {
+  display: block;
+  font-size: $font-size-body;
+  text-decoration: none;
+}
+
+
+/* ==========================================================================
+Template Layout
+========================================================================== */
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.template_image > img {
+  max-width: 100%;
+}
+
+.template_title, .template_body, .templates_buttons {
+  flex: 1 100%;
+}
+
+.template_buttons {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* ==========================================================================
+Template Stylist
+========================================================================== */
+
+.flex-container {
+  background-color: $white;
+  border-radius: 4px;
+  box-shadow: 0px 5px 10px rgba(33,33,33, 0.2);
+  margin: 0 24px;
+
+  .template_title {
+    padding-top: 24px;
+    text-align: center;
+  }
+
+  .template_body {
+    padding: 16px 16px 24px 16px;
+  }
+
+  .template_buttons {
+    margin-bottom: 16px;
+    padding: 0 16px;
+
+    .button {
+      border-radius: 4px;
+      height: 48px;
+      width: 50%;
+
+      a {
+        border-radius: 4px;
+        line-height: 48px;
+        text-align: center;
+      }
+
+      &:first-child {
+        background-color: null;
+        border: $borders;
+        margin-right: 16px;
+      }
+    }
+
+    .buttonLeft {
+        a {
+          color: $iOSblue;
+          font-weight: $font-weight-semibold;
+        }
+    }//End .buttonLeft
+
+    .buttonRight {
+        a {
+          background-color: $color_01;
+          color: $white;
+        }
+    }//End .buttonRight
+
+  }//End .template_buttons
+}//End .flex-container
+
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1025px) {
+/* Styles */
+}
