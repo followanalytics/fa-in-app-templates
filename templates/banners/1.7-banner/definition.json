@@ -1,0 +1,25 @@
+{
+  "template_fields": [{
+      "selector": "#template_title",
+      "type": "text",
+      "value": " Lorem ipsum dolor sit amet "
+    }, {
+      "selector": ".template_image",
+      "type": "image",
+      "src": {
+        "normal": "http://link.com/image.png",
+        "retina": "http://link.com/image@2x.png",
+        "hdpi": "http://link.com/image@3x.png"
+      }
+    }
+  ],
+  "template_options": {
+    "page":{
+      "background_color": "#ff0000",
+      "font_family": "Verdana, Arial, sans-serif",
+      "text_direction": "ltr"
+    },
+    "name": "Name template",
+    "title": "title"
+  }
+}

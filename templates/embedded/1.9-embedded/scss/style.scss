@@ -1,0 +1,116 @@
+/*
+Name: FollowAnalytics
+Description: FollowAnalytics in-App Templates
+Version: 1.0.0
+*/
+
+/* ==========================================================================
+Template Variables
+========================================================================== */
+
+// Typography
+$font-family-body: 'Open Sans', sans-serif;
+$font-family-title: 'Playfair Display', serif;
+$font-weight-semibold: 600;
+$font-size-body: 15px;
+$font-size-title: 17px;
+$line-height-body: 1.5;
+
+// Basic Color Palette
+$black: #212121;
+$lightgrey: #F0F0F0;
+$white: #ffffff;
+// Additional Colors
+$color_01: #634f4e;
+
+// Borders
+$borders: 1px solid $lightgrey;
+
+
+/* ==========================================================================
+Template Defaults
+========================================================================== */
+
+@import "reset";
+
+body {
+  font-family: $font-family-body;
+  -webkit-text-stroke-width: .05px;
+  -webkit-text-stroke-color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  color: $white;
+  font-size: $font-size-title;
+  font-weight: $font-weight-semibold;
+}
+
+p {
+  color: $white;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+}
+
+a {
+  display: block;
+  font-size: $font-size-body;
+  text-decoration: none;
+}
+
+span {
+  color: $white;
+  font-size: $font-size-title;
+}
+
+
+/* ==========================================================================
+Template Layout
+========================================================================== */
+
+.flex-container {
+  display: inline-flex;
+  flex-flow: column nowrap;
+}
+
+.template_image > img {
+  max-width: 100%;
+}
+
+.template_body{
+  display: flex;
+  // flex: 1 100%;
+  // flex-direction: column;
+  // justify-content: space-between;
+}
+
+
+/* ==========================================================================
+Template Stylist
+========================================================================== */
+
+.flex-container {
+  background-color: $color_01;
+  box-shadow: 0px 5px 10px rgba(33,33,33, 0.2);
+
+  .template_body {
+    padding: 16px 16px;
+  }
+}//End .flex-container
+
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1025px) {
+/* Styles */
+}

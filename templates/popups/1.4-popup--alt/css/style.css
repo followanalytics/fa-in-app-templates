@@ -1,0 +1,130 @@
+/*
+Name: FollowAnalytics
+Description: FollowAnalytics in-App Templates
+Version: 1.0.0
+*/
+/* ==========================================================================
+Template Variables
+========================================================================== */
+/* ==========================================================================
+Template Defaults
+========================================================================== */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-text-stroke-width: .05px;
+  -webkit-text-stroke-color: white;
+  -webkit-font-smoothing: antialiased; }
+
+h1 {
+  color: #5A4044;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 600; }
+
+p {
+  color: #212121;
+  font-size: 15px;
+  line-height: 1.5; }
+
+a {
+  display: block;
+  font-size: 15px;
+  text-decoration: none; }
+
+/* ==========================================================================
+Template Layout
+========================================================================== */
+.flex-container {
+  display: flex;
+  flex-flow: row wrap; }
+
+.template_image > img {
+  max-width: 100%; }
+
+.template_title, .template_body, .templates_buttons {
+  flex: 1 100%; }
+
+.template_buttons {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center; }
+
+/* ==========================================================================
+Template Stylist
+========================================================================== */
+.flex-container {
+  background-color: #ffffff;
+  box-shadow: 0px 5px 10px rgba(33, 33, 33, 0.2);
+  margin: 0 24px; }
+  .flex-container .template_buttons {
+    border-top: 1px solid #F0F0F0; }
+    .flex-container .template_buttons .button {
+      height: 48px;
+      width: 100%; }
+      .flex-container .template_buttons .button a {
+        line-height: 48px;
+        text-align: center; }
+    .flex-container .template_buttons .buttonCenter a {
+      color: #007AFF;
+      font-weight: 600; }
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */ }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */ }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1025px) {
+  /* Styles */ }
